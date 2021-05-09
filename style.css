@@ -131,6 +131,7 @@ header .main-info {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 header .main-info .main-info:first-child {
@@ -171,9 +172,34 @@ header .main-info .social i.fab.fa-twitter {
   width: 16px;
 }
 
+header .main-info .kkal {
+  width: 94px;
+  height: 94px;
+  background: #FFDD63;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #65636A;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0%;
+}
+
 header .main-info .images-logo .main-pic {
-  width: 640px;
-  height: 635px;
+  max-width: 640px;
+  max-height: 635px;
   -webkit-filter: drop-shadow(18px 32px 24px rgba(0, 0, 0, 0.12));
           filter: drop-shadow(18px 32px 24px rgba(0, 0, 0, 0.12));
   position: relative;
@@ -191,13 +217,14 @@ header .main-info .images-logo .main-pic::after {
 
 header .main-info .images-logo .tomato-1 {
   position: absolute;
-  top: 700px;
+  top: 400px;
+  left: 50%;
 }
 
 header .main-info .images-logo .tomato-2 {
   position: absolute;
-  top: 285px;
-  left: 890px;
+  top: 110px;
+  left: 830px;
 }
 
 header .main-info .main-information h1 {
@@ -383,8 +410,8 @@ main .food .main-salad .kkal p .numb::after {
 }
 
 main .food .main-salad .main-imag {
-  width: 555px;
-  height: 556px;
+  max-width: 555px;
+  max-height: 556px;
   position: relative;
 }
 
@@ -957,5 +984,90 @@ footer p {
   letter-spacing: 0.03em;
   color: #65636A;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .tomato-2 {
+    display: none;
+  }
+  .main-info .kkal {
+    top: 1%;
+    right: 5%;
+  }
+  .reviev .callbacks .left-arrow {
+    display: none;
+  }
+  .reviev .slider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .main-info .social {
+    display: none;
+  }
+  .tomato-1 {
+    display: none;
+  }
+  .menu h1::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .main-info .kkal {
+    left: 90%;
+  }
+  header .main-information h1 {
+    font-size: 70px !important;
+  }
+  header .main-information .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .food .menu .menu-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .explain .explain-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer ul {
+    padding-left: 0 !important;
+  }
+  footer p {
+    padding-top: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
