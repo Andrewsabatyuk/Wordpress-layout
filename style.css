@@ -315,6 +315,61 @@ main .food .main-salad {
   padding-top: 20px;
 }
 
+main .food .main-salad .kkal {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: url(Images/Ellipse-7.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: -252px;
+  top: 137px;
+}
+
+main .food .main-salad .kkal::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #FFDD63;
+  width: 144px;
+  height: 144px;
+}
+
+main .food .main-salad .kkal p {
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  color: #65636A;
+  margin: 5px;
+  position: relative;
+  font-weight: bolder;
+}
+
+main .food .main-salad .kkal p .numb {
+  position: relative;
+}
+
+main .food .main-salad .kkal p .numb::after {
+  content: '';
+  position: absolute;
+  width: 90px;
+  border: 2px solid white;
+}
+
 main .food .main-salad .main-imag {
   width: 555px;
   height: 556px;
@@ -582,9 +637,32 @@ main .food .menu .menu-items .order:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.explain .explain-items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.explain .explain-items .item img {
+  margin-top: 80px;
+  height: 55px;
+  width: auto;
 }
 
 .explain .explain-items h3 {
