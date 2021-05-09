@@ -422,18 +422,16 @@ main {
                 &::before {
                     content: '';
                     position: absolute;
-                    background-color: #F9F9F9;
-                    display: flex;
+                    background-color: #F5F5F5;
                     width: 94px;
-                    align-items: center;
                     height: 94px;
                     border-radius: 50%;
                     background-image: url(Images/arrow-down.png);
                     background-repeat: no-repeat;
                     background-position-x: 42px;
-                    background-position-y: 21px;
+                    background-position-y: 11px;
                     right: -220px;
-                    top: -110px;
+                    top: -90px;
                     z-index: 2;
                 }
             }
