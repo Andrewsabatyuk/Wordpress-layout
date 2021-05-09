@@ -18,7 +18,7 @@
 }
 
 header {
-    padding: 40px 50px 50px 55px;
+    padding: 0px 50px 50px 55px;
 
     .nav-flex {
         display: flex;
@@ -67,6 +67,7 @@ header {
                     a:hover {
                         color: blue;
                         font-size: 18px;
+                        transition: 0.2s ease-in-out;
                     }
                 }
             }
@@ -88,6 +89,7 @@ header {
                 i:hover {
                     color: blue;
                     font-size: 18px;
+                    transition: 0.2s ease-in-out;
                 }
 
 
@@ -242,11 +244,13 @@ header {
                 .menu:hover {
                     background-color: blue;
                     color: white;
+                    transition: 0.2s ease-in-out;
                 }
 
                 .order:hover {
                     background-color: blue;
                     color: white;
+                    transition: 0.2s ease-in-out;
                 }
             }
         }
@@ -389,11 +393,13 @@ main {
                 .menu:hover {
                     background-color: blue;
                     color: white;
+                    transition: 0.2s ease-in-out;
                 }
 
                 .order:hover {
                     background-color: blue;
                     color: white;
+                    transition: 0.2s ease-in-out;
                 }
             }
         }
@@ -504,6 +510,7 @@ main {
                 .order:hover {
                     background-color: blue;
                     color: white;
+                    transition: 0.2s ease-in-out;
                 }
             }
         }
@@ -627,6 +634,11 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
+
+            &:hover{
+                border: 2px solid blue;
+                transition: 0.2s ease-in-out;
+            }
         }
 
         .call-items {

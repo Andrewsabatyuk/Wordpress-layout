@@ -11,7 +11,7 @@
 }
 
 header {
-  padding: 40px 50px 50px 55px;
+  padding: 0px 50px 50px 55px;
 }
 
 header .nav-flex {
@@ -85,6 +85,8 @@ header .nav-flex .navbar ul li a {
 header .nav-flex .navbar ul li a:hover {
   color: blue;
   font-size: 18px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 header .nav-flex .navbar .nav-icons {
@@ -110,6 +112,8 @@ header .nav-flex .navbar .nav-icons i {
 header .nav-flex .navbar .nav-icons i:hover {
   color: blue;
   font-size: 18px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 header .main-info {
@@ -269,11 +273,15 @@ header .main-info .main-information .buttons .order {
 header .main-info .main-information .buttons .menu:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 header .main-info .main-information .buttons .order:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 main {
@@ -445,11 +453,15 @@ main .food .main-salad .salad-buttons .menu {
 main .food .main-salad .salad-buttons .menu:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 main .food .main-salad .salad-buttons .order:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 main .food .menu {
@@ -589,6 +601,8 @@ main .food .menu .menu-items .order {
 main .food .menu .menu-items .order:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .explain {
@@ -746,6 +760,12 @@ main .food .menu .menu-items .order:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.reviev .callbacks .left-arrow:hover {
+  border: 2px solid blue;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .reviev .callbacks .call-items {
