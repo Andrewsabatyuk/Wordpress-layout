@@ -100,6 +100,7 @@ header {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
 
         .main-info:first-child {
             display: flex;
@@ -263,8 +264,7 @@ main {
         flex-direction: row;
         // align-items: center;
         justify-content: space-around;
-        // overflow: hidden;
-        // z-index: 5;
+        flex-wrap: wrap;
 
 
         .main-imag::before {
@@ -584,6 +584,96 @@ main {
 
 }
 
-.reviev{
-    
+.reviev {
+
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px;
+        line-height: 72px;
+        color: #282630;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    h1::after {
+        content: '';
+        width: 116px;
+        height: 3px;
+        background: #282630;
+        position: absolute;
+        left: 3px;
+        top: 85px;
+    }
+
+    .callbacks {
+        // max-width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        .left-arrow {
+            width: 54px;
+            height: 54px;
+            border: 1px solid #DEDEDE;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .call-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px;
+            }
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-align: center;
+                color: #342B2B;
+            }
+
+            .text {
+                width: 344px;
+                font-family: 'Cabin', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                text-align: center;
+                color: #65636A;
+            }
+
+
+        }
+    }
+
+    .slider {
+        width: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
 }
