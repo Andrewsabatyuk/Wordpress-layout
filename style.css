@@ -205,16 +205,6 @@ header .main-info .images-logo .main-pic {
   position: relative;
 }
 
-header .main-info .images-logo .main-pic::after {
-  content: '';
-  border: 1px solid #FEE382;
-  position: absolute;
-  width: 801px;
-  height: 801px;
-  left: 194px;
-  top: 64px;
-}
-
 header .main-info .images-logo .tomato-1 {
   position: absolute;
   top: 400px;
@@ -329,15 +319,6 @@ main .food {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-main .food .main-imag::before {
-  content: '430 kkal $24';
-  background: url(Images/Ellipse-7.png);
-  position: absolute;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
 }
 
 main .food .main-salad {
