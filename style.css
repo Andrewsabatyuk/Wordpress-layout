@@ -198,7 +198,7 @@ header .main-info .kkal {
 }
 
 header .main-info .images-logo .main-pic {
-  max-width: 640px;
+  max-width: 631px;
   max-height: 635px;
   -webkit-filter: drop-shadow(18px 32px 24px rgba(0, 0, 0, 0.12));
           filter: drop-shadow(18px 32px 24px rgba(0, 0, 0, 0.12));
@@ -215,6 +215,12 @@ header .main-info .images-logo .tomato-2 {
   position: absolute;
   top: 110px;
   left: 830px;
+}
+
+header .main-info .images-logo img.tom2 {
+  position: absolute;
+  top: 22%;
+  left: 55%;
 }
 
 header .main-info .main-information h1 {
@@ -533,6 +539,7 @@ main .food .menu .menu-items {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 55px;
 }
 
 main .food .menu .menu-items:nth-child(2) {

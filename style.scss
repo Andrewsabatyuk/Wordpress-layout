@@ -157,7 +157,7 @@ header {
 
 
             .main-pic {
-                max-width: 640px;
+                max-width: 631px;
                 max-height: 635px;
                 filter: drop-shadow(18px 32px 24px rgba(0, 0, 0, 0.12));
                 position: relative;
@@ -175,6 +175,12 @@ header {
                 position: absolute;
                 top: 110px;
                 left: 830px;
+            }
+            
+            img.tom2 {
+                position: absolute;
+                top: 22%;
+                left: 55%;
             }
 
         }
@@ -435,6 +441,7 @@ main {
                 flex-direction: row;
                 justify-content: space-between;
                 flex-wrap: wrap;
+                padding-top: 55px;
 
                 &:nth-child(2) {
                     margin-top: 20px;
