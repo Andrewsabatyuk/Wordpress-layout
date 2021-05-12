@@ -162,14 +162,35 @@ header .main-info .social i.fab.fa-facebook-f {
   width: 8px;
 }
 
+header .main-info .social i.fab.fa-facebook-f:hover {
+  color: blue;
+  font-size: 20px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 header .main-info .social i.fab.fa-linkedin-in {
   height: 16px;
   width: 15px;
 }
 
+header .main-info .social i.fab.fa-linkedin-in:hover {
+  color: blue;
+  font-size: 20px;
+  -webkit-transition: 0;
+  transition: 0;
+}
+
 header .main-info .social i.fab.fa-twitter {
   height: 13px;
   width: 16px;
+}
+
+header .main-info .social i.fab.fa-twitter:hover {
+  color: blue;
+  font-size: 20px;
+  -webkit-transition: 0;
+  transition: 0;
 }
 
 header .main-info .kkal {

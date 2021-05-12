@@ -122,15 +122,34 @@ header {
                 width: 8px;
             }
 
+            i.fab.fa-facebook-f:hover {
+                color: blue;
+                font-size: 20px;
+                transition: 0.2s ease-in-out;
+            }
+
             i.fab.fa-linkedin-in {
                 height: 16px;
                 width: 15px;
+            }
+
+            i.fab.fa-linkedin-in:hover {
+                color: blue;
+                font-size: 20px;
+                transition: 0
             }
 
             i.fab.fa-twitter {
                 height: 13px;
                 width: 16px;
             }
+
+            i.fab.fa-twitter:hover {
+                color: blue;
+                font-size: 20px;
+                transition: 0
+            }
+
         }
 
 
@@ -176,7 +195,7 @@ header {
                 top: 110px;
                 left: 830px;
             }
-            
+
             img.tom2 {
                 position: absolute;
                 top: 22%;
